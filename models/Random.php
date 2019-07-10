@@ -20,11 +20,14 @@ $alumnos = array(
 );
 
 
- echo (rand(5,15));
+//  echo (rand(5,15));
+foreach($alumnos as $valor){
 
+    echo $alumnos[rand(0, count($alumnos) -1)] . '-' . $alumnos[rand(0, count($alumnos) -1)] . '<br>';
+   
+}
+//  foreach($alumnos as $valor){
 
- foreach($alumnos as $valor){
-
-    $valor[rand(0,16)];
- };
+//     $valor[rand(0,16)];
+//  };
 
