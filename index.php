@@ -29,7 +29,7 @@
 </head>
 <body>
     <?php
-        
+        include("models/Random.php");
     ?>
 </body>
 </html>

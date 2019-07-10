@@ -1,27 +1,30 @@
 <?php
 
-namespace models;
+$alumnos = array( 
+    'Alexis',
+    'David',
+    'Fran',
+    'Jordi',
+    'Jose',
+    'Julia',
+    'Luis',
+    'Petro',
+    'Jorge',
+    'Alejandro',
+    'Mateo',
+    'Jaume',
+    'Adrian',
+    'Lolo',
+    'Cristian',
+    'Toni'
+);
 
-class Random
-{  
 
-    public $random;
-    public $alumnos;
+ echo (rand(5,15));
 
-public function __construct($random, $alumnos)
-{
-    $this->random = random;
-    $this->alumnos = alumnos;
-}
-    
-        public function alumno_random()
-        {
-            $posicion_alumno=rand(0, sizeof($alumnos));
-            if (condition) 
-            {
-                $alumno = $alumno[$posicion_alumno];
-                $alumnos[$posicion_alumno]=" ";
-            }
-        }
 
-}
+ foreach($alumnos as $valor){
+
+    $valor[rand(0,16)];
+ };
+
