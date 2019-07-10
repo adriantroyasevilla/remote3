@@ -1,0 +1,17 @@
+{
+    "name": "jorge/random",
+    "description": "RANDOM",
+    "type": "project",
+    "license": "MIT",
+    "autoload":
+    {
+        "psr-4": 
+        {
+            "models\\": "models/"
+        }
+    },
+    
+    "require": {
+
+    }
+}

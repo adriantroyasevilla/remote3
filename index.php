@@ -1,32 +1,23 @@
 <?php
-$alumnos=[
-    'Alexis',
-    'David',
-    'Fran',
-    'Jordi',
-    'Jose',
-    'Julia',
-    'Luis',
-    'Petro',
-    'Jorge',
-    'Alejandro',
-    'Mateo',
-    'Jaume',
-    'Adrian',
-    'Lolo',
-    'Cristian',
-    'Toni'
-];
-
-
-function alumno_random(){
-    $posicion_alumno=rand(0,sizeof($alumnos));
-    if (condition) {
-    $alumno=$alumno[$posicion_alumno];
-    $alumnos[$posicion_alumno]=" ";
-    }
-}
-
+    $alumnos=[
+        'Alexis',
+        'David',
+        'Fran',
+        'Jordi',
+        'Jose',
+        'Julia',
+        'Luis',
+        'Petro',
+        'Jorge',
+        'Alejandro',
+        'Mateo',
+        'Jaume',
+        'Adrian',
+        'Lolo',
+        'Cristian',
+        'Toni'
+    ];
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,6 +28,8 @@ function alumno_random(){
     <title>Random</title>
 </head>
 <body>
-    
+    <?php
+        
+    ?>
 </body>
 </html>
